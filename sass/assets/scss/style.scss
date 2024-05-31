@@ -1,0 +1,66 @@
+@import 'partials/variable';
+@import 'partials/fonts';
+@import 'partials/colors';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.card{
+    width: $width-300;
+    height: $height-600;
+    margin-top: 100px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    
+}
+.blue{
+    height: $height-100;
+    background-color: $blue-color;
+    border-radius: 10px 10px 0 0;
+}
+img{
+    border: 10px solid white;
+    width: $width-100;
+    height: $height-100;
+    border-radius: $border-radius-50;
+    margin-top: 50px;
+}
+.bluecolor{
+    color: $blue-color;
+    font-size: $medium-fs;
+    margin-top: $mt-10;
+}
+.blackcolor{
+    font-size: $small-fs;
+    margin-top: $mt-10;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: $mt-10;
+}
+.bluebtn{
+    width: $width-100;
+    height: $height-40;
+    background-color: $blue-color;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+.whitebtn{
+    width: $width-100;
+    height: $height-40;
+    background-color: white;
+    color: $blue-color;
+    border: 1px solid $blue-color;
+    border-radius: 50px;
+}
